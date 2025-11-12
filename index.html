@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,10 +27,11 @@
         </div><!--logo-->
         <nave class="menu-desktop">
           <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Especialidades</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#especialidade">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Projetos</a></li>
+            <li><a href="#forms">Mensagem</a></li>
           </ul>
         </nave>
         <div class="btn-contato">
@@ -42,7 +43,7 @@
 </header>
 
 <main>
-<section class="topo-do-site">
+<section class="topo-do-site" id="inicio">
  <div class="interface">
   <div class="flex">
     <div class="txt-topo-site">
@@ -64,7 +65,7 @@
         </div><!--btn-contato-->
 </section><!--topo-da-site-->
 
-<section class="especialidade">
+<section class="especialidade" id="especialidade">
   <div class="interface">
        <h2 class="titulo"> Minhas <span>Especialidades.</span></h2>
     <div class="flex">
@@ -89,7 +90,7 @@
   </div><!--interface-->
 </section><!--especialidades-->
 
-<section class="sobre">
+<section class="sobre" id="sobre">
     <div class="interface">
         <div class="flex">
           <div class="img-sobre">
@@ -101,16 +102,16 @@
               <p>Sou estudante do Ete Cícero Dias, do curso de Programação. No momento estou em aprendizagem, gosto de programar jogos, sites e aplicativos. Hoje, me encontro no primeiro ano do ensino Médio, estou aprendendo Html, Css e javascript. Que juntos formam a estrutura dos sites.</p>
               <p>Tenho 16 anos, nasci no mês de Novembro. E na Minha família há vários programadores!</p>
               <div class="btn-social">
-                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                <a href="#"><button id="insta" onclick="insta()"><i class="bi bi-instagram"></i></button></a>
                 <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
-                <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                <a href="#" ><button><i class="bi bi-linkedin"></i></button></a>
               </div><!--btn-social-->
            </div><!--txt-sobre-->
         </div><!--flex-->
     </div><!--interface-->
 </section><!--sobre-->
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="interface">
     <h2 class="titulo"> Meu <span>Portfólio.</span></h2>
     <div class="flex">
@@ -127,7 +128,7 @@
   </div><!--interface-->
 </section><!--portfolio-->
 
-<section class="formulario">
+<section class="formulario" id="forms">
  <div class="interface">
     <h2 class="titulo"> Falar <span>Comigo.</span></h2>
 
